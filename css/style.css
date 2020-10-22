@@ -1,0 +1,17 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+
+}
+.header {
+    padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.svg {
+    position: absolute;
+}
+.portable {
+    position: relative;
+}
