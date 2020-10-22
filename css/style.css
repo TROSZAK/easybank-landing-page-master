@@ -2,18 +2,49 @@ body {
     font-family: 'Public Sans', sans-serif;
     font-size: 1.125em;
 }
+main {
+    background-color: #f4f5f7;
+}
 .portable {
    position: absolute;
    top:-80px;
    z-index: 1;
 }
-
+.advantages {
+    text-align: center;
+}
+.choose {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.picture {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    
+    
+}
+.name {
+    color:#c6c5ca;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.align {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #fafafa;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    }
 .next {
  font-weight: 100;
  font-size: 1.125em;
  margin-bottom: 0px;
- 
-}
+ }
+ .next1 {
+     font-weight: bold;
+ }
 .description {
     padding: top 10px;;
 }
@@ -27,6 +58,7 @@ body {
  font-size: 1.125em;
  font-size: initial;
  font-weight: 400;
+ margin-bottom: 15px;
  
  
 }
@@ -44,10 +76,39 @@ body {
 }
 .picture {
     margin-bottom: 20px;
+   
 }
+.end {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.fontawesome {
+    margin-bottom: 40px;
+
+}
+.contact {
+    margin-bottom: 40px;
+}
+.request2 {
+    margin-bottom: 40px;
+    border-color: #2d314e;
+}
+.copyright {
+    margin-bottom: 40px;
+    color: #808080;
+}
+.attribution {
+    font-size: small;
+}
+a {
+    color:white
+}
+
+
 footer {
     background-color: #2d314e;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     color: white;
-}
+    text-align: center;
+    }
