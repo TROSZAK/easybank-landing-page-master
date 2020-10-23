@@ -104,11 +104,76 @@ a {
     color:white
 }
 
-
 footer {
     background-color: #2d314e;
     display: flex;
     flex-direction: column;
     color: white;
     text-align: center;
-    }
+ }
+.svg2 {
+    display:none;
+}
+request {
+    display:none;
+}
+
+ @media (min-width: 801px) {
+
+ .button {
+     width:10vw;
+     height: 3vw;
+     font-size: smaller;
+     font-weight: 300;
+      }
+ .svg1 {
+     display: none;
+ }
+ .svg2 {
+     display:block;
+ }
+.description {
+    display: flex;
+    height: 90VH;
+    
+    
+}
+.choose {
+ display:flex;
+ flex-wrap: wrap;
+ 
+}
+.picture {
+display:flex;
+ flex-wrap: wrap;
+}
+/* ordre des blocs sur 1ère section du main */
+.order {
+    order: -1;
+    margin-top: 80px;
+    margin-left: 150px;
+    padding-right: 300px;
+}
+.top {
+ display:flex;
+ justify-content: space-around;
+ 
+}
+.navbar-menu {
+    padding-left: 180px;
+    padding-right: 180px;
+    
+}
+.navbar-item {
+    color: #a1a0a6;
+}
+footer {
+    display:flex;
+    flex-direction: row;
+}
+.next {
+    text-align: left;
+    width: 30vw;
+}
+
+ }
