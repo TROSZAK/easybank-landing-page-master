@@ -1,0 +1,283 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.125em;
+}
+main {
+    background-color: #f4f5f7;
+}
+.portable {
+   position: absolute;
+   top:-80px;
+   z-index: 1;
+}
+.advantages {
+    text-align: center;
+}
+.choose {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.picture {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+       
+}
+.name {
+    color:#c6c5ca;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.align {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #fafafa;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    }
+.next {
+ font-weight: 100;
+ font-size: 1.125em;
+ margin-bottom: 0px;
+ text-align: center;
+ }
+ .next1 {
+     font-weight: bold;
+ }
+.description {
+    padding: top 10px;;
+}
+.easybank {
+    font-weight: 100;
+    font-size: 1.125em;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: small;
+}
+.wrapped {
+    padding-bottom: 10px;
+}
+.text {
+ color:hsl(233, 8%, 62%);
+ padding: 0 ;
+ width:103%;
+ font-size: 1.125em;
+ font-size: initial;
+ font-weight: 400;
+ margin-bottom: 15px;
+ text-align: center;
+ 
+}
+
+.button {
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to right,#30ce6f, #2cb9cb);
+    height: 10vh;
+    width: 65vw;
+    font-size: inherit;   
+}
+.request {
+    margin-left: 76px;
+}
+.picture {
+    margin-bottom: 20px;
+   
+}
+.end {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.fontawesome {
+    margin-bottom: 40px;
+
+}
+.contact {
+    margin-bottom: 40px;
+}
+.request2 {
+    margin-bottom: 40px;
+    border-color: #2d314e;
+}
+.copyright {
+    margin-bottom: 40px;
+    color: #808080;
+}
+.attribution {
+    font-size: small;
+}
+a {
+    color:white
+}
+
+footer {
+    background-color: #2d314e;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+ }
+.svg2 {
+    display:none;
+}
+.request1 {
+    display:none;
+}
+
+
+/* changement du css à partir de 801 px */
+ @media (min-width: 801px) {
+
+ .button {
+     width:10vw;
+     height: 3vw;
+     font-size: smaller;
+     font-weight: 300;
+     margin-right: 120px;
+      }
+ 
+.description {
+    background-color: #fafafa;
+    display: flex; 
+    height: 85vh;
+    
+    }
+
+.choose {
+ display:flex;
+ flex-direction: column;
+ margin-top: 130px;
+ margin-left: 150px;
+}
+.advantages {
+    justify-content: center;
+    text-align: left;
+    width: 20vw;
+}
+.wrap {
+    display:flex;
+    justify-content: center;
+    
+}
+.wrapped {
+    width: 15vw;
+}
+
+.portable {
+    position: absolute;
+    top: -61px;
+    z-index: 1;
+    right: -85px;
+    background: url("/images/bg-intro-desktop.svg");
+    width: 50%;
+ }
+.svg1 {
+    display:none;
+}
+.latest {
+    margin-left: 100px;
+}
+.why {
+    margin-left: 55px; 
+    margin-bottom: 20px;
+    color: #9698a6;
+}
+.easybank {
+    font-size: x-small;
+    font-weight: 100;
+    font-size: 1.125em;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.picture {
+    margin-top: 30px;
+    display:flex;
+    flex-wrap: nowrap;
+    margin-left: 150px;
+}
+
+/* ordre des blocs sur 1ère section du main */
+.order {
+    order: -2;
+    margin-top: 80px;
+    margin-right: 300px;
+    margin-left: 150px;
+    width:20vw;
+}
+.top {
+ display:flex;
+ justify-content: space-around;
+ 
+}
+.navbar-menu {
+    padding-left: 210px;
+    padding-right: 210px;
+    
+}
+.navbar-item {
+    color: #a1a0a6;
+    }
+.easy {
+    margin-left: 155px;
+}
+
+.foot {
+    display:flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 15px;
+    font-size: small;
+    
+}
+.end {
+    padding-right: 50px;
+    margin-top: 0px;
+}
+.contact {
+    color: #9698a6;
+    padding-right: 15px;
+    font-size: small;
+}
+.logo {
+    padding-bottom: 40px;
+}
+.next {
+    text-align: left;
+    width: 30vw;
+    margin-bottom: 0px;
+}
+.text {
+    color:hsl(233, 8%, 62%);
+    padding: 0 ;
+    font-size: 1.125em;
+    font-size: initial;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 65%;
+    width: 28vw;
+}
+.request {
+    margin-left: 0px;
+    }
+.request1 {
+    display: flex;
+}    
+.next {
+    font-size: small;
+    font-weight: 400;
+}
+ }
