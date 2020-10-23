@@ -7765,6 +7765,9 @@ main {
 .wrapped {
   padding-bottom: 10px; }
 
+.wrapped2 {
+  padding-bottom: 10px; }
+
 .text {
   color: #9698a6;
   padding: 0;
@@ -7797,10 +7800,8 @@ main {
 .fontawesome {
   margin-bottom: 40px; }
 
-.contact {
-  margin-bottom: 40px; }
-
 .request2 {
+  margin-top: 40px;
   margin-bottom: 40px;
   border-color: #2d314e; }
 
@@ -7822,7 +7823,7 @@ footer {
   text-align: center; }
 
 .svg2 {
-  display: none; }
+  display: flex; }
 
 .request1 {
   display: none; }
@@ -7847,12 +7848,18 @@ footer {
   .advantages {
     justify-content: center;
     text-align: left;
-    width: 20vw; }
+    width: 20vw;
+    line-height: 1em; }
   .wrap {
     display: flex;
     justify-content: center; }
   .wrapped {
     width: 15vw; }
+  .wrapped2 {
+    width: 40vw;
+    margin-left: 0px; }
+  .easybank2 {
+    width: 40vw; }
   .portable {
     position: absolute;
     top: -61px;
@@ -7861,6 +7868,8 @@ footer {
     background: url("/images/bg-intro-desktop.svg");
     width: 50%; }
   .svg1 {
+    display: none; }
+  .svg2 {
     display: none; }
   .latest {
     margin-left: 100px; }
@@ -7874,6 +7883,8 @@ footer {
     font-size: 1.125em;
     margin-bottom: 0px;
     text-align: left; }
+  .icons {
+    padding-bottom: 20px; }
   .picture {
     margin-top: 30px;
     display: flex;
