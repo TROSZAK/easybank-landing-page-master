@@ -66,11 +66,17 @@ main {
 }
 .wrapped {
     padding-bottom: 10px;
+    color: #9698a6;
+    text-align: center;
+  
 }
 .wrapped2 {
     padding-bottom: 10px;
+    text-align: center;
+    color: #9698a6;
+    font-size: initial;
 }
-.text {
+.text1 {
  color:hsl(233, 8%, 62%);
  padding: 0 ;
  width:103%;
@@ -78,7 +84,11 @@ main {
  font-size: initial;
  font-weight: 400;
  margin-bottom: 15px;
- text-align: center;
+ text-align: left;
+ }
+ .text {
+    text-align: center;
+    font-size: initial;
  }
 
 .button {
@@ -114,6 +124,7 @@ main {
 .copyright {
     margin-bottom: 40px;
     color: #808080;
+    text-align: lef;
 }
 .attribution {
     font-size: small;
@@ -130,12 +141,11 @@ footer {
     text-align: center;
  }
 .svg2 {
-    display:flex;
+    display:none;
 }
 .request1 {
     display:none;
 }
-
 
 /* changement du css à partir de 801 px */
  @media (min-width: 801px) {
@@ -174,11 +184,15 @@ footer {
 }
 .wrapped {
     width: 15vw;
+    text-align: left;
+    font-size: initial;
 }
 .wrapped2 {
     width: 40vw;
-    margin-left: 0px;
-}
+    color:hsl(233, 8%, 62%);
+    text-align: left;
+    font-size: initial;
+    }
 
 .easybank2 {
     width: 40vw;
@@ -189,17 +203,17 @@ footer {
     top: -61px;
     z-index: 1;
     right: -85px;
-    background: url("/images/bg-intro-desktop.svg");
-    width: 50%;
+     width: 50%;
  }
 .svg1 {
     display:none;
 }
 .svg2 {
-    display: none;
+    display: flex;
 }
 .latest {
-    margin-left: 100px;
+    margin-left: 120px;
+    font-weight: 100;
 }
 .why {
     margin-left: 55px; 
@@ -229,7 +243,7 @@ footer {
     order: -2;
     margin-top: 80px;
     margin-right: 300px;
-    margin-left: 150px;
+    margin-left: 200px;
     width:20vw;
 }
 .top {
@@ -266,7 +280,6 @@ footer {
 }
 .contact {
     color: #9698a6;
-    padding-right: 15px;
     font-size: small;
 }
 .logo {
@@ -277,7 +290,15 @@ footer {
     width: 30vw;
     margin-bottom: 0px;
     font-size: small;
-    font-weight: 400;
+    font-weight: 100;
+    }
+  
+.img {
+    height: 30vh;
+}
+.align2 {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .text {
     color:hsl(233, 8%, 62%);
@@ -287,7 +308,6 @@ footer {
     font-weight: 400;
     margin-bottom: 15px;
     text-align: left;
-    width: 65%;
     width: 28vw;
 }
 .request {
@@ -296,5 +316,13 @@ footer {
 .request1 {
     display: flex;
 }    
-
+.request2 {
+    margin-top: 0px;
+}
+.text1 {
+    font-size: small;
+}
+.copyright {
+    text-align: left;
+}
  }
